@@ -1,5 +1,6 @@
---color-header-bckgrnd: rgb();
-
+:root {
+  --color-header-backgrnd: rgb(184, 19, 11);
+}
 /* anaheim-regular - latin */
 @font-face {
   font-family: "Anaheim";
@@ -29,13 +30,12 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: brown;
+  background-color: var(--color-header-backgrnd);
   height: 50px;
 }
 
 h1 {
   text-align: center;
-  background-color: aqua;
   width: 150px;
   font-size: 40px;
 }
