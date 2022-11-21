@@ -79,7 +79,15 @@ main {
   background-color: var(--color-question-box);
 }
 
-.button_answer {
+button {
+  width: 100px;
+  padding: 2px;
+  text-align: center;
+  position: relative;
+  left: 140px;
+  background-color: var(--color-body);
+  border-radius: 5px;
+  border: 1px solid;
 }
 
 .hashtags {
@@ -90,9 +98,14 @@ main {
 
 p {
   font-size: 12px;
-  padding: 1px 3px;
+  padding: 1px 5px;
   border: 1px solid black;
-  border-radius: 2px;
+  opacity: 0.5;
+  border-radius: 10px;
+}
+
+p::before {
+  content: "#";
 }
 
 .bookmarks {
