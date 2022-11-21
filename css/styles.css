@@ -73,7 +73,7 @@ main {
   text-align: center;
   padding: 10px;
   border-radius: 5px;
-  width: 380px;
+  width: 320px;
   height: 150px;
   background-color: var(--color-question-box);
 }
@@ -83,7 +83,7 @@ button {
   padding: 2px;
   text-align: center;
   position: relative;
-  left: 140px;
+  left: 110px;
   background-color: var(--color-body);
   border-radius: 5px;
   border: 1px solid;
