@@ -5,19 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile</title>
+    <link rel="stylesheet" href="/css/profile.css" />
   </head>
   <header>
     <h1>Profile</h1>
-    <a href="/profile.html#settings"><img src="/icons/cog-outline(1).png" alt="button_settings"></button></a>
+    <section class="btn_settings">
+      <a href="/profile.html#settings"
+        ><img src="/icons/cog-outline(1).png" alt="button_settings"
+      /></a>
+    </section>
   </header>
   <body>
-    <section class="profile_pic">
-      <img src="/images/blank-profile-picture-g9a6e34edf_1280.png" alt="" />
-    </section>
     <section class="profile_name">
+      <img src="/images/blank-profile-picture-g9a6e34edf_1280.png" alt="" />
       <h2>Example name</h2>
     </section>
-    <section class="about me">
+    <section class="about_me">
       <h2>About me</h2>
       <p>This is some text about me.</p>
     </section>
@@ -32,27 +35,38 @@
     <section id="settings" class="setting_box">
       <h2>Settings</h2>
       <ul type="list" class="setting list">
-        <li>Dark mode<img src="/icons/toggle-switch-off-outline.png" alt="toggle_off" /></li>
-        <li>Sound<img src="icons/toggle-switch.png" alt="toggle_on"></li>
+        <li>
+          Dark mode<img
+            src="/icons/toggle-switch-off-outline.png"
+            alt="toggle_off"
+          />
+        </li>
+        <li>Sound<img src="icons/toggle-switch.png" alt="toggle_on" /></li>
         <li>Delete counter<button>Delete</button></li>
       </ul>
     </section>
   </body>
   <footer>
-    <section class="icon_home">
-      <a href="/index.html"
-        ><img src="/icons/home-circle-outline.png" alt="home_icon"
-      /></a>
-    </section>
-    <section class="icon_bookmarks">
-      <a href="/bookmarks.html"
-        ><img src="/icons/bookmark-multiple-outline(1).png" alt="bookmark_icon"
-      /></a>
-    </section>
-    <section class="icon_profile">
-      <a href="/profile.html"
-        ><img src="/icons/account-circle(1).png" alt="profile_icon"
-      /></a>
-    </section>
+    <nav>
+      <ul>
+        <li>
+          <a href="/index.html"
+            ><img src="/icons/home-circle.png" alt="home_icon"
+          /></a>
+        </li>
+        <li>
+          <a href="/bookmarks.html"
+            ><img
+              src="/icons/bookmark-multiple-outline(1).png"
+              alt="bookmark_icon"
+          /></a>
+        </li>
+        <li>
+          <a href="/profile.html"
+            ><img src="/icons/account-circle-outline(1).png" alt="profile_icon"
+          /></a>
+        </li>
+      </ul>
+    </nav>
   </footer>
 </html>

@@ -1,0 +1,98 @@
+:root {
+  --color-header-backgrnd: rgb(184, 19, 11);
+  --color-question-box: rgb(255, 255, 255);
+  --color-body: rgba(104, 242, 249, 0.454);
+}
+/* anaheim-regular - latin */
+@font-face {
+  font-family: "Anaheim";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/anaheim-v14-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/anaheim-v14-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/anaheim-v14-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/anaheim-v14-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/anaheim-v14-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/anaheim-v14-latin-regular.svg#Anaheim") format("svg"); /* Legacy iOS */
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Anaheim", sans-serif;
+}
+
+body {
+  position: relative;
+  background-color: var(--color-body);
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-header-backgrnd);
+  height: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.btn_settings img {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  width: 30px;
+}
+
+.profile_name {
+  position: relative;
+  top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.profile_name img {
+  width: 100px;
+  border-radius: 100%;
+}
+
+.about_me {
+  position: relative;
+  top: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.setting_box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+    position: fixed;
+    bottom: 0px;#
+    width: 100%;
+  z-index: 10;
+  background-color: var(--color-header-backgrnd);
+  height: 70px;
+}

@@ -113,12 +113,14 @@ p::before {
   right: -5px;
 }
 
-footer {
+nav ul {
+  list-style: none;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  position: sticky;
+  position: fixed;
   bottom: 0px;
+  width: 100%;
   z-index: 10;
   background-color: var(--color-header-backgrnd);
   height: 70px;
