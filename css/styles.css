@@ -68,6 +68,7 @@ main {
 
 .question_box {
   position: relative;
+  text-align: center;
   padding: 10px;
   border-radius: 5px;
   width: 380px;
@@ -79,4 +80,12 @@ main {
   position: absolute;
   top: -15px;
   right: -5px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  position: static;
+  top: 926px;
+  z-index: 10;
 }
