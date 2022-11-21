@@ -1,0 +1,46 @@
+/* anaheim-regular - latin */
+@font-face {
+  font-family: "Anaheim";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/anaheim-v14-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/anaheim-v14-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/anaheim-v14-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/anaheim-v14-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/anaheim-v14-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/anaheim-v14-latin-regular.svg#Anaheim") format("svg"); /* Legacy iOS */
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Anaheim", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  height: 50px;
+}
+
+h1 {
+  text-align: center;
+  background-color: aqua;
+  width: 150px;
+  font-size: 40px;
+}
+
+.btn_settings img {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  width: 30px;
+}
