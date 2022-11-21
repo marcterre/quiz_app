@@ -85,7 +85,9 @@ main {
 footer {
   display: flex;
   justify-content: space-around;
-  position: static;
-  top: 926px;
+  align-items: center;
+  position: sticky;
+  bottom: 0px;
   z-index: 10;
+  background-color: rgb(145, 144, 144);
 }
