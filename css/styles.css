@@ -1,5 +1,7 @@
 :root {
   --color-header-backgrnd: rgb(184, 19, 11);
+  --color-question-box: rgb(255, 255, 255);
+  --color-body: rgba(104, 242, 249, 0.454);
 }
 /* anaheim-regular - latin */
 @font-face {
@@ -26,7 +28,14 @@
   font-family: "Anaheim", sans-serif;
 }
 
+body {
+  background-color: var(--color-body);
+}
+
 header {
+  position: sticky;
+  top: 0px;
+  z-index: 10;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,10 +68,11 @@ main {
 
 .question_box {
   position: relative;
-  border: 1px solid black;
+  padding: 10px;
   border-radius: 5px;
-  width: 400px;
+  width: 380px;
   height: 150px;
+  background-color: var(--color-question-box);
 }
 
 .bookmarks {
