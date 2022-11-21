@@ -79,6 +79,22 @@ main {
   background-color: var(--color-question-box);
 }
 
+.button_answer {
+}
+
+.hashtags {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+p {
+  font-size: 12px;
+  padding: 1px 3px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
 .bookmarks {
   position: absolute;
   top: -15px;
