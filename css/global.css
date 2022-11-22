@@ -1,0 +1,15 @@
+:root {
+  --color-header-backgrnd: rgb(184, 19, 11);
+  --color-question-box: rgb(255, 255, 255);
+  --color-body: rgba(104, 242, 249, 0.454);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Anaheim", sans-serif;
+}
+
+body {
+  background-color: var(--color-body);
+}
