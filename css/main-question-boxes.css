@@ -40,3 +40,11 @@
 .main-box-question__list-items::before {
   content: "#";
 }
+
+.main-box-question__bookmarks {
+  fill: black;
+  width: 40px;
+  position: absolute;
+  top: -15px;
+  right: -5px;
+}
