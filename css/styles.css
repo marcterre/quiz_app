@@ -99,7 +99,7 @@ p {
   font-size: 12px;
   padding: 1px 5px;
   border: 1px solid black;
-  opacity: 0.5;
+  opacity: ;
   border-radius: 10px;
 }
 
@@ -124,4 +124,9 @@ nav ul {
   z-index: 10;
   background-color: var(--color-header-backgrnd);
   height: 70px;
+}
+
+.svg {
+  width: 100px;
+  fill: rgb(184, 19, 11);
 }
