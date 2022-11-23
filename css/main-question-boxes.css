@@ -1,7 +1,10 @@
 .main-box-question {
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 10px 1fr 1;
+  grid-template-rows: 2fr 1fr 1fr;
+  place-items: center;
+  text-align: center;
+  border-radius: 15px;
   gap: 20px;
   padding: 20px;
   max-height: 200px;
@@ -18,14 +21,13 @@
 }
 
 .main-box-question__button {
-  width: 100px;
-  padding: 2px;
+  font-size: 18px;
+  width: 110px;
+  padding: 5px;
   text-align: center;
-  position: relative;
-  left: 110px;
+  /* position: relative; */
   background-color: var(--color-body);
-  border-radius: 5px;
-  border: 1px solid;
+  border-radius: 10px;
 }
 
 .main-box-question__list {
@@ -52,8 +54,8 @@
 
 .main-box-question__bookmarks {
   fill: black;
-  width: 40px;
-  position: absolute;
-  top: -10px;
-  right: -5px;
+  /* position: absolute; */
+  width: 50px;
+  /* top: 15px;
+  right: 20px; */
 }
