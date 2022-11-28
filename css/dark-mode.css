@@ -1,0 +1,18 @@
+.dark-mode {
+  background-color: rgb(50, 51, 58);
+  color: white;
+}
+
+.list-button__dark-mode {
+  background-color: black !important;
+  color: white;
+}
+
+.profile-box__about-me__dark-mode,
+.profile-box-counters__dark-mode {
+  background-color: rgb(79, 81, 90) !important;
+}
+
+.header__dark-mode {
+  background-color: rgb(30, 33, 49);
+}
