@@ -30,14 +30,10 @@
 }
 
 header {
-  /* position: sticky;
-  top: 0px;
-  z-index: 9; */
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--color-header-backgrnd);
-  /* height: 50px; */
 }
 
 h1 {
@@ -59,18 +55,13 @@ body {
   height: 100vh;
 }
 
-main {
+.main-grid {
   position: relative;
   overflow-y: auto;
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   padding: 20px;
-  /* display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px; */
 }
 
 .footer-list {
@@ -78,13 +69,7 @@ main {
   display: flex;
   justify-content: space-around;
   padding: 5px;
-  /* align-items: center; */
-  /* position: fixed;
-  bottom: 0px;
-  width: 100%;
-  z-index: 10; */
   background-color: var(--color-header-backgrnd);
-  /* height: 70px; */
 }
 
 .footer-list__items {

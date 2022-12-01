@@ -1,9 +1,9 @@
-form {
+.main-add-cards {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   justify-content: flex-start;
   align-items: center;
+  gap: 20px;
 }
 
 .form__textfield:not(button) {
@@ -16,12 +16,17 @@ form {
   background-color: var(--color-question-box);
 }
 
+.form__textfield.tag-textfield {
+  max-height: 10px;
+}
+
 .form__label-textfield {
   font-size: 20px;
 }
 
 .form__button {
   max-width: 100px;
+  height: 30px;
   font-size: 20px;
   padding: 5px;
   background-color: red;
