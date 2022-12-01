@@ -6,6 +6,7 @@
   border-radius: 15px;
   gap: 20px;
   padding: 10px;
+  padding-bottom: 20px;
   max-height: 200px;
   /* display: flex;
   flex-direction: column;
@@ -29,10 +30,20 @@
   border-radius: 10px;
 }
 
+.main-box-question__answer {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
 .main-box-question__list {
   display: grid;
   grid-template-columns: repeat(3, 90px);
   gap: 10px;
+
   /* display: flex;
   justify-content: flex-start;
   gap: 10px;
