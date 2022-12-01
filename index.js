@@ -24,6 +24,7 @@
 const bookmark = document.querySelector('[data-js="bookmarks"]');
 const answerText = document.querySelector('[data-js="answer-text"]');
 const buttonAnswer = document.querySelector('[data-js="button__answer"]');
+const form = document.querySelector('[data-js="form"]');
 
 bookmark.addEventListener("click", () => {
   bookmark.classList.toggle("main-box-question__bookmarks-toggle");
@@ -39,4 +40,11 @@ function showAnswer() {
   } else {
     buttonAnswer.textContent = "show answer";
   }
+}
+
+form.addEventListener("submit");
+
+function formSubmit(event) {
+  event.preventDefault();
+  console.log(event.target.value);
 }
