@@ -1,0 +1,30 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.form__textfield:not(button) {
+  max-width: 400px;
+  min-width: 300px;
+  max-height: 100px;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  background-color: var(--color-question-box);
+}
+
+.form__label-textfield {
+  font-size: 20px;
+}
+
+.form__button {
+  max-width: 100px;
+  font-size: 20px;
+  padding: 5px;
+  background-color: red;
+  border: none;
+  border-radius: 15px;
+}
