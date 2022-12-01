@@ -54,9 +54,13 @@
 .main-box-question__bookmarks {
   grid-column: 1;
   justify-self: end;
-  fill: black;
+  fill: rgb(0, 0, 0);
   /* position: absolute; */
   width: 50px;
   /* top: 15px;
   right: 20px; */
+}
+
+.main-box-question__bookmarks-toggle {
+  background-image: url(/svg/bookmark.svg);
 }
