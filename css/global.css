@@ -1,7 +1,7 @@
 :root {
-  /* --color-header-backgrnd: rgba(0, 126, 8, 0.642); */
   --color-question-box: rgb(255, 255, 255);
-  --color-body: rgba(35, 144, 11, 0.769);
+  --color-body: rgba(61, 134, 45, 0.83);
+  --color-header-footer-border: rgba(9, 17, 7, 0.769);
 }
 
 /* anaheim-regular - latin */
@@ -29,29 +29,29 @@
   font-family: "Anaheim", sans-serif;
 }
 
-header {
+header:not(.header-button-settings__svg) {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: 4px solid var(--color-header-footer-border);
 }
 
 h1 {
   text-align: center;
-  font-size: 40px;
-  border-bottom: 3px solid black;
+  font-size: 50px;
 }
 
 .header-button-settings__svg {
   position: absolute;
-  top: 5px;
+  top: 7px;
   right: 0px;
-  width: 50px;
+  width: 46px;
 }
 
 body {
   background-color: var(--color-body);
   display: grid;
-  grid-template-rows: 60px 1fr 60px;
+  grid-template-rows: 70px 1fr 70px;
   height: 100vh;
 }
 
@@ -59,12 +59,13 @@ body {
   position: relative;
   overflow-y: auto;
   display: grid;
-  gap: 20px;
+  gap: 30px;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   padding: 20px;
 }
 
 .footer-list {
+  border-top: 4px solid var(--color-header-footer-border);
   list-style: none;
   display: flex;
   justify-content: space-around;
