@@ -16,6 +16,7 @@ function newQuestion(event) {
 
   const newButton = document.createElement("button");
   newButton.classList.add("main-box-question__button");
+  newButton.textContent = "show answer";
 
   const newAnswerText = document.createElement("p");
   newAnswerText.textContent = data.youranswer;

@@ -1,7 +1,7 @@
 :root {
-  --color-header-backgrnd: rgb(184, 19, 11);
+  /* --color-header-backgrnd: rgba(0, 126, 8, 0.642); */
   --color-question-box: rgb(255, 255, 255);
-  --color-body: rgba(104, 242, 249, 0.454);
+  --color-body: rgba(35, 144, 11, 0.769);
 }
 
 /* anaheim-regular - latin */
@@ -33,12 +33,12 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--color-header-backgrnd);
 }
 
 h1 {
   text-align: center;
   font-size: 40px;
+  border-bottom: 3px solid black;
 }
 
 .header-button-settings__svg {
