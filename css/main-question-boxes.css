@@ -18,6 +18,7 @@
   text-align: center;
   background-color: var(--color-body);
   border-radius: 10px;
+  content: "show answer";
 }
 
 .main-box-question__answer {
@@ -44,8 +45,8 @@
 }
 
 .main-box-question__list-items:hover {
-  background-color: rgba(255, 255, 0, 0.45);
-  transition: 0.5s ease-in;
+  background-color: rgba(242, 64, 64, 0.45);
+  transition: 0.5s cubic-bezier(0.95, 0.05, 0.8, 0.04);
 }
 
 .main-box-question__list-items::before {
