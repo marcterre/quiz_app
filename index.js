@@ -10,8 +10,14 @@ bookmark.addEventListener("click", () => {
 
 function toggleAnswer() {
   answerText.classList.toggle("hidden");
-  buttonAnswer.textContent = "hide answer";
-  console.log(buttonAnswer);
+  const showAnswerText = "show answer";
+  const hideAnswerText = "hide answer";
+
+  if (buttonAnswer.textContent === hideAnswerText) {
+    buttonAnswer.textContent = showAnswerText;
+  } else {
+    buttonAnswer.textContent = hideAnswerText;
+  }
 }
 
 buttonAnswer.addEventListener("click", toggleAnswer);

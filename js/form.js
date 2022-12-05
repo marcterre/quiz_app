@@ -1,4 +1,5 @@
 const form = document.querySelector('[data-js="form"]');
+const main = document.querySelector('[data-js="main"]');
 
 form.addEventListener("submit", newQuestion);
 
@@ -8,8 +9,13 @@ function newQuestion(event) {
   const formData = new FormData(event.target);
   const data = Object.fromEntries(formData);
 
-  const newQuestionContainer = document.createElement("div");
+  const newQuestionContainer = document.createElement("section");
   newQuestionContainer.classList.add("main-box-question");
+
+  const newDivContainer = document.createElement("div");
+  newDivContainer.classList.add("main-box-question__bookmarks");
+
+  const newBookmarkSvg = document.createElement("img");
 
   const newQuestionText = document.createElement("h2");
   newQuestionText.textContent = data.yourquestion;
@@ -29,8 +35,11 @@ function newQuestion(event) {
   newHashtag.classList.add("main-box-question__list-items");
   newHashtag.textContent = data.tag;
 
-  form.append(newQuestionContainer);
+  main.append(newQuestionContainer);
+
   newQuestionContainer.append(
+    newDivContainer,
+    newBookmarkSvg,
     newQuestionText,
     newButton,
     newAnswerText,

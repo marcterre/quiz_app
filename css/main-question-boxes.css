@@ -11,13 +11,23 @@
   background-color: var(--color-question-box);
 }
 
+.main-box-question:hover {
+  background-color: green;
+  transition: 10px ease-in;
+}
+
 .main-box-question__button {
-  font-size: 18px;
-  width: 110px;
+  font-size: 20px;
+  width: 130px;
   padding: 5px;
   text-align: center;
-  background-color: var(--color-body);
+  background-color: var(--color-buttons);
   border-radius: 10px;
+  box-shadow: 3px 3px 10px;
+}
+
+.main-box-question_button:hover {
+  background-color: rgb(255, 247, 0);
 }
 
 .main-box-question__answer {
